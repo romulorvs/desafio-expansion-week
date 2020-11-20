@@ -17,8 +17,8 @@ const Benefits: React.FC = () => {
               Desenvolva suas Soft Skills e dê o próximo passo na sua carreira.
             </h3>
             <h2>
-              Aumente a longevidade da sua carreira, tenha maior qualidade
-              profissional e saiba lidar com adversidades.
+              Melhore a sua Tomada de Decisões, tenha mais Foco e Perseverança e
+              saiba lidar com as Adversidades no ambiente de trabalho.
             </h2>
             <div>
               <Link to="/improving">Desenvolva-se</Link>

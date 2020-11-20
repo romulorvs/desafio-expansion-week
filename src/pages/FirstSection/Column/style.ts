@@ -35,7 +35,7 @@ const Content = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.15);
     transition: background-color ${transitionTime} ease-in-out;
     color: white;
     display: flex;
@@ -66,6 +66,7 @@ const Content = styled.div`
     padding-bottom: 15%;
 
     h2 {
+      font-size: 48px;
       @media (max-width: 768px) {
         font-size: 36px;
       }

@@ -16,8 +16,10 @@ const FirstSection: React.FC = () => {
       videoTitle: 'Proatividade | Nerdologia Ensina',
       Description: (
         <p>
-          <strong>Profissionais proativos agem como donos.</strong>A
-          proatividade é a capacidade de tomar decisões por conta própria e de
+          <strong>
+            Profissionais proativos se antecipam a situações adversas.
+          </strong>
+          A proatividade é a iniciativa da tomada de decisões e a capacidade de
           se antecipar a situações adversas. Ser proativo também traz muitos
           benefícios para a vida pessoal, já que a pessoa proativa toma a
           responsabilidade pelos seus atos e tem maior predisposição a buscar
@@ -34,7 +36,7 @@ const FirstSection: React.FC = () => {
       videoTitle: 'Resiliência - Thiago Rodrigo',
       Description: (
         <p>
-          <strong>Pessoas Resilientes conquistam seus objetivos.</strong>
+          <strong>Pessoas Resilientes focam em seus objetivos.</strong>
           Resiliência é a capacidade que uma pessoa tem em lidar com problemas,
           estabelecer metas e persistir nos seus objetivos. Profissionais
           resilientes tem maior facilidade em adaptar-se a mudanças, superar
