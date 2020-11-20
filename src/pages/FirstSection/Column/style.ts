@@ -12,7 +12,7 @@ const Content = styled.div`
   transition: box-shadow ${transitionTime} ease-in-out;
   min-height: 100vh;
 
-  @media (max-height: 768px) {
+  @media (max-width: 768px) {
     scroll-snap-align: start;
   }
 

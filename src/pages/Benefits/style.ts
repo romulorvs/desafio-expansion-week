@@ -9,7 +9,7 @@ const Content = styled.div<ContentProps>`
   position: relative;
   min-height: 100vh;
 
-  @media (max-height: 768px) {
+  @media (max-width: 768px) {
     scroll-snap-align: start;
   }
 

@@ -84,8 +84,13 @@ export const Content = styled.div<ContentProps>`
       width: 30px;
       height: 30px;
 
+      @media (max-width: 768px) {
+        width: 20px;
+        height: 20px;
+      }
+
       path {
-        fill: rgba(0, 0, 0, 0.3);
+        fill: rgba(0, 0, 0, 0.25);
       }
     }
   }

@@ -12,12 +12,11 @@ const Content = styled.div<ContentProps>`
   align-items: center;
   justify-content: center;
   background-color: #252525;
-  padding-top: calc(${headerHeight} - 10px);
+  padding-top: ${headerHeight};
   padding-bottom: 15px;
 
-  @media (max-height: 768px) {
+  @media (max-width: 768px) {
     scroll-snap-align: start;
-    padding-top: calc(${headerHeight} - 23px);
   }
 
   > div {
