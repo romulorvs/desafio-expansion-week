@@ -1,7 +1,10 @@
 # Desafio Expansion Week
 
-O Desafio pediu para que abordássemos uma **Soft Skill**, mas eu fui um pouco além e desenvolvi o projeto a partir da ideia de que há várias Soft Skills necessárias para um bom desenvolvimento profissional.
-Dessa forma, fiz o projeto como uma **Landing Page** de um **Curso** de Desenvolvimento das Soft Skills que acho essenciais a um profissional de TI.
+**App on Vercel**: https://desafio-expansion-week-tawny.vercel.app/
+
+---
+
+O Desafio pediu para que abordássemos uma **Soft Skill**, mas eu fui um pouco além e desenvolvi o projeto como se fosse a **Landing Page** de um **Curso** de Desenvolvimento das várias Soft Skills que entendo serem essenciais a um profissional de TI.
 
 ---
 

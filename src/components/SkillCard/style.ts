@@ -16,7 +16,7 @@ export const Content = styled.div<ContentProps>`
   position: relative;
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 220px;
     border: 0;
   }
 

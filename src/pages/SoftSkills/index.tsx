@@ -40,8 +40,8 @@ const SoftSkills: React.FC = () => {
         <h3>
           <i className="small">
             Soft Skills são habilidades ligadas às relações interpessoais e ao
-            desenvolvimento profissional. As Soft Skills podem ser grandes
-            aliadas na sua carreira.
+            desenvolvimento profissional, e podem ser grandes aliadas na sua
+            carreira.
           </i>
           <i className="big">
             Soft Skills são habilidades ligadas às relações interpessoais e ao

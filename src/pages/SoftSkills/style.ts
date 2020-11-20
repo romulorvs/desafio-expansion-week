@@ -12,11 +12,12 @@ const Content = styled.div<ContentProps>`
   align-items: center;
   justify-content: center;
   background-color: #252525;
-  padding-top: calc(${headerHeight} - 15px);
+  padding-top: calc(${headerHeight} - 10px);
   padding-bottom: 15px;
 
   @media (max-height: 768px) {
     scroll-snap-align: start;
+    padding-top: calc(${headerHeight} - 23px);
   }
 
   > div {
@@ -38,7 +39,7 @@ const Content = styled.div<ContentProps>`
     color: #fff;
 
     @media (max-width: 768px) {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 
@@ -48,7 +49,8 @@ const Content = styled.div<ContentProps>`
     margin-top: 15px;
 
     @media (max-width: 768px) {
-      font-size: 18px;
+      font-size: 16px;
+      margin-top: 10px;
     }
 
     i.big {
@@ -70,6 +72,7 @@ const Content = styled.div<ContentProps>`
       color: #fff;
       display: block;
       margin-top: 10px;
+      margin-top: 8px;
     }
   }
 
@@ -87,9 +90,25 @@ const Content = styled.div<ContentProps>`
     > div:nth-child(1),
     > div:nth-child(3) {
       transform: scale(0.88);
+    }
 
+    > div:nth-child(1) {
       @media (max-width: 768px) {
-        transform: scale(0.92);
+        transform: scale(0.92) translateX(+2px);
+        margin-left: -6px;
+      }
+    }
+
+    > div:nth-child(2) {
+      @media (max-width: 768px) {
+        z-index: 5;
+      }
+    }
+
+    > div:nth-child(3) {
+      @media (max-width: 768px) {
+        transform: scale(0.92) translateX(-2px);
+        margin-right: -6px;
       }
     }
   }
