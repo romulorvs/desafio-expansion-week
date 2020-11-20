@@ -17,6 +17,7 @@ const Content = styled.div<ContentProps>`
 
   @media (max-width: 768px) {
     scroll-snap-align: start;
+    align-items: unset;
   }
 
   > div {
