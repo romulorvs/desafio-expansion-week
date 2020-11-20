@@ -99,12 +99,6 @@ const Content = styled.div<ContentProps>`
       }
     }
 
-    > div:nth-child(2) {
-      @media (max-width: 768px) {
-        z-index: 5;
-      }
-    }
-
     > div:nth-child(3) {
       @media (max-width: 768px) {
         transform: scale(0.92) translateX(-2px);
