@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import Improvements from '../pages/Improvements';
+import Improving from '../pages/Improving';
 
 const Routes: React.FC = () => {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/improving" exact component={Improvements} />
+      <Route path="/improving" exact component={Improving} />
+      <Route path="/" component={Home} />
     </Switch>
   );
 };

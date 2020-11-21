@@ -1,5 +1,5 @@
 import React, { useCallback, useContext } from 'react';
-import { AppContext } from '../../../context/AppContext';
+import { AppContext } from '../../context/AppContext';
 import Content from './style';
 
 interface ColumnProps {
@@ -11,7 +11,7 @@ interface ColumnProps {
   videoTitle: string;
 }
 
-const Column: React.FC<ColumnProps> = ({
+const SkillColumn: React.FC<ColumnProps> = ({
   imgUrl,
   title,
   Description,
@@ -43,4 +43,4 @@ const Column: React.FC<ColumnProps> = ({
   );
 };
 
-export default Column;
+export default SkillColumn;

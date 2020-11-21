@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { headerHeight } from '../../../components/Header/style';
 
 interface ContentProps {
   id?: string;
@@ -8,10 +9,8 @@ const Content = styled.div<ContentProps>`
   display: flex;
   position: relative;
   min-height: 100vh;
-
-  @media (max-width: 768px) {
-    scroll-snap-align: start;
-  }
+  scroll-snap-align: start;
+  background-color: #180056;
 
   video {
     position: absolute;
@@ -25,6 +24,7 @@ const Content = styled.div<ContentProps>`
 
   > div {
     position: absolute;
+    padding-top: ${headerHeight};
     top: 0;
     left: 0;
     right: 0;

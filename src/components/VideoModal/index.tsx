@@ -8,9 +8,9 @@ const VideoModal: React.FC = () => {
 
   useEffect(() => {
     if (videoData !== null) {
-      document.body.style.overflow = 'hidden'; // hide scroll
+      document.body.style.overflow = 'hidden'; // hide body scroll
     } else {
-      document.body.style.overflow = ''; // hide scroll
+      document.body.style.overflow = ''; // show body scroll
     }
   }, [videoData]);
 
@@ -32,7 +32,7 @@ const VideoModal: React.FC = () => {
             <div className="loader" />
           </div>
           <iframe
-            src={videoData.videoUrl}
+            src={`${videoData.videoUrl}?autoplay=1`}
             title={videoData.videoTitle}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

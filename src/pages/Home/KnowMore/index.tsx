@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Content from './style';
-import SkillCard from '../../components/SkillCard';
+import SkillCard from '../../../components/SkillCard';
 
-const SoftSkills: React.FC = () => {
+const KnowMore: React.FC = () => {
   const [skills] = useState([
     {
       title: 'Adaptabilidade',
@@ -34,7 +35,7 @@ const SoftSkills: React.FC = () => {
   ]);
 
   return (
-    <Content id="skills">
+    <Content id="knowmore">
       <div>
         <h2>O que são Soft Skills e como elas afetam sua vida profissional?</h2>
         <h3>
@@ -66,8 +67,11 @@ const SoftSkills: React.FC = () => {
           )}
         </ul>
       </div>
+      <div>
+        <Link to="/improving">Desenvolva-se</Link>
+      </div>
     </Content>
   );
 };
 
-export default SoftSkills;
+export default KnowMore;

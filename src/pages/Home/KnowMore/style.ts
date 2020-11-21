@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { headerHeight } from '../../components/Header/style';
+import { headerHeight } from '../../../components/Header/style';
 
 interface ContentProps {
   id?: string;
@@ -9,29 +9,27 @@ const Content = styled.div<ContentProps>`
   display: flex;
   position: relative;
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #252525;
-  padding-top: ${headerHeight};
   padding-bottom: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  padding-top: ${headerHeight};
 
   @media (max-width: 768px) {
-    scroll-snap-align: start;
     align-items: unset;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  scroll-snap-align: start;
 
   > div {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 15px;
     max-width: 1000px;
     width: 100%;
-
-    @media (max-width: 768px) {
-      margin-right: 10px;
-      margin-left: 10px;
-    }
   }
 
   h2 {
@@ -103,6 +101,36 @@ const Content = styled.div<ContentProps>`
       @media (max-width: 768px) {
         transform: scale(0.92) translateX(-2px);
         margin-right: -6px;
+      }
+    }
+  }
+
+  > div + div {
+    flex-direction: unset;
+    justify-content: center;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      color: white;
+      border: 2px solid #2ba837;
+      font-size: 20px;
+      transition: background-color 0.15s;
+      margin-top: 25px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+        padding: 12px 14px;
+      }
+
+      &:focus {
+        background-color: rgba(43, 168, 55, 0.4);
+      }
+
+      &:hover {
+        background-color: #2ba837;
       }
     }
   }

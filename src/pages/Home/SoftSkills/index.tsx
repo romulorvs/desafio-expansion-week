@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Column from './Column';
+import Column from '../../../components/SkillColumn';
 import Content from './style';
-import imgProactivity from '../../assets/proactivity.jpg';
-import imgResilience from '../../assets/resilience.jpg';
-import imgCommunication from '../../assets/communication.jpg';
+import imgProactivity from '../../../assets/proactivity.jpg';
+import imgResilience from '../../../assets/resilience.jpg';
+import imgCommunication from '../../../assets/communication.jpg';
 
-const FirstSection: React.FC = () => {
+const SoftSkills: React.FC = () => {
   const [columns] = useState([
     {
       imgUrl: imgProactivity,
@@ -64,7 +64,7 @@ const FirstSection: React.FC = () => {
   ]);
 
   return (
-    <Content>
+    <Content id="softskills">
       {columns.map(
         ({
           imgUrl,
@@ -89,4 +89,4 @@ const FirstSection: React.FC = () => {
   );
 };
 
-export default FirstSection;
+export default SoftSkills;

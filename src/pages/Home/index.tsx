@@ -1,7 +1,7 @@
 import React from 'react';
-import FirstSection from '../FirstSection';
-import SoftSkills from '../SoftSkills';
-import Benefits from '../Benefits';
+import SoftSkills from './SoftSkills';
+import KnowMore from './KnowMore';
+import FirstSection from './FirstSection';
 import Content from './style';
 
 const Home: React.FC = () => {
@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     <Content>
       <FirstSection />
       <SoftSkills />
-      <Benefits />
+      <KnowMore />
     </Content>
   );
 };

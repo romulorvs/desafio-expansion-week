@@ -10,7 +10,7 @@ import imgProatividade from '../../assets/proatividade.jpg';
 import imgInteligenciaEmocional from '../../assets/inteligencia-emocional.jpg';
 import imgSoftSkills from '../../assets/soft-skills.png';
 
-const Improvements: React.FC = () => {
+const Improving: React.FC = () => {
   const [links] = useState([
     {
       imgUrl: imgColaboracao,
@@ -87,4 +87,4 @@ const Improvements: React.FC = () => {
   );
 };
 
-export default Improvements;
+export default Improving;

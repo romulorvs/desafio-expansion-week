@@ -8,19 +8,26 @@ const Header: React.FC = () => {
 
   return (
     <Content>
-      <Link to="/">
-        <Logo />
-      </Link>
+      {location.pathname === '/' ? (
+        <a href="/#home">
+          <Logo />
+        </a>
+      ) : (
+        <Link to="/">
+          <Logo />
+        </Link>
+      )}
+      ;
       <ul>
         {location.pathname === '/' ? (
           <>
-            <a href="/#skills">Soft Skills</a>
-            <a href="/#benefits">Benefícios</a>
+            <a href="/#softskills">Soft Skills</a>
+            <a href="/#knowmore">Entenda</a>
           </>
         ) : (
           <>
-            <Link to="/#skills">Soft Skills</Link>
-            <Link to="/#benefits">Benefícios</Link>
+            <Link to="/#softskills">Soft Skills</Link>
+            <Link to="/#knowmore">Entenda</Link>
           </>
         )}
 
