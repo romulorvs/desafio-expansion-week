@@ -15,7 +15,7 @@ O Desafio pediu para que abordássemos uma **Soft Skill**, mas eu fui um pouco a
 </h5>
 
 <h5 align="center">
-  <img alt="Desktop Thumb" title="#web2" src=".github/desktop2.png" />
+  <img width='90%' alt="Desktop Thumb" title="#web2" src=".github/desktop2.png" />
 </h1>
 
 ## Mobile
