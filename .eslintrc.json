@@ -40,7 +40,9 @@
         }
       ],
       "no-use-before-define": "off",
-      "prettier/prettier": "error",
+      "prettier/prettier": ["error", {
+        "endOfLine":"auto"
+      }],
       "react/jsx-one-expression-per-line": "off",
       "react/jsx-props-no-spreading": "off",
       "react/prop-types": "off",
