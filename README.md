@@ -15,13 +15,13 @@ O Desafio pediu para que abordássemos uma **Soft Skill**, mas eu fui um pouco a
 </h5>
 
 <h5 align="center">
-  <img width='90%' alt="Desktop Thumb" title="#web2" src=".github/desktop2.png" />
+  <img alt="Desktop Thumb" title="#web2" src=".github/desktop2.png" />
 </h1>
 
 ## Mobile
 
 <h5 align="center">
-  <img alt="Mobile Thumb" title="#mobile" src=".github/mobile.png" />
+  <img width='90%' alt="Mobile Thumb" title="#mobile" src=".github/mobile.png" />
 </h5>
 
 ---
