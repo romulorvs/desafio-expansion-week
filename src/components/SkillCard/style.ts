@@ -11,7 +11,7 @@ export const Content = styled.div<ContentProps>`
   flex-direction: column;
   align-items: center;
   box-shadow: 0 15px 27px -17px rgba(0, 0, 0, 0.3), 0 0 0px 1px rgb(51 51 51);
-  border: 7px solid #252525;
+  border: 7px solid #131313;
   border-radius: 4px;
   position: relative;
 

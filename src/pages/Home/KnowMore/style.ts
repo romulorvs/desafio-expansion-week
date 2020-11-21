@@ -10,7 +10,7 @@ const Content = styled.div<ContentProps>`
   position: relative;
   min-height: 100vh;
   justify-content: space-around;
-  background-color: #252525;
+  background-color: #131313;
   padding-bottom: 15px;
   flex-direction: column;
   align-items: center;
@@ -21,6 +21,8 @@ const Content = styled.div<ContentProps>`
     align-items: unset;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: ${headerHeight};
+    justify-content: center;
   }
   scroll-snap-align: start;
 
@@ -37,7 +39,7 @@ const Content = styled.div<ContentProps>`
     color: #fff;
 
     @media (max-width: 768px) {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 
@@ -47,7 +49,7 @@ const Content = styled.div<ContentProps>`
     margin-top: 15px;
 
     @media (max-width: 768px) {
-      font-size: 16px;
+      font-size: 15px;
       margin-top: 10px;
     }
 
@@ -118,11 +120,12 @@ const Content = styled.div<ContentProps>`
       border: 2px solid #2ba837;
       font-size: 20px;
       transition: background-color 0.15s;
-      margin-top: 25px;
+      margin-top: 20px;
 
       @media (max-width: 768px) {
         font-size: 16px;
         padding: 12px 14px;
+        margin-top: 25px;
       }
 
       &:focus {
