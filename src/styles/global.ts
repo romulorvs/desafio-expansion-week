@@ -8,6 +8,12 @@ export default createGlobalStyle`
     outline: 0;
   }
 
+  html{
+    @media (min-width: 769px){
+      scroll-behavior: smooth;
+    }
+  }
+
   body{
     background-color: white;
     -webkit-font-smoothing: antialiased;

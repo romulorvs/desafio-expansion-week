@@ -47,14 +47,14 @@ export const Content = styled.div`
 
     iframe {
       width: 100%;
-      height: 450px;
+      height: 453px;
       box-shadow: 0 15px 27px -17px rgba(0, 0, 0, 0.3);
       border: 4px solid #3c3c3c;
       border-radius: 8px;
       position: relative;
 
       @media (max-width: 768px) {
-        height: 300px;
+        height: 250px;
       }
     }
 
